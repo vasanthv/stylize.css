@@ -1,2 +1,2 @@
 # stylize.css [In Development]
-> A beautiful alternative to reset.css or normalize.css. 
+> A beautiful alternative CSS resets & normalizers.

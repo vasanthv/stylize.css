@@ -1,0 +1,28 @@
+{
+  "name": "stylize.css",
+  "version": "1.0.0",
+  "description": "A beautiful alternative to CSS resets & normalisers.",
+  "main": "stylize.css",
+  "scripts": {
+    "test": "echo '✔ nothing to test'",
+    "build": "./node_modules/uglifycss/uglifycss --ugly-comments stylize.css > stylize.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasanthv/stylize.css.git"
+  },
+  "keywords": [
+    "stylize.css",
+    "css",
+    "resets"
+  ],
+  "author": "Vasanth V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasanthv/stylize.css/issues"
+  },
+  "homepage": "https://github.com/vasanthv/stylize.css#readme",
+  "devDependencies": {
+    "uglifycss": "0.0.28"
+  }
+}

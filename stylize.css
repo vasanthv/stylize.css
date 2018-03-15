@@ -243,6 +243,7 @@ table[border="1"] td {
 .spacer{
     display: block;
     margin-top:1em;
+    height:1em;
     content:" ";
     clear: both;
 }

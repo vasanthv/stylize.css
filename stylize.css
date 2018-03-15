@@ -164,6 +164,12 @@ a[role="button"] {
     border-radius: var(--border-radius);
     box-sizing: border-box;
 }
+input[type="checkbox"],
+input[type="radio"]{
+    border:none;
+    border:0;
+}
+
 button,
 input[type="button"],
 input[type="submit"],

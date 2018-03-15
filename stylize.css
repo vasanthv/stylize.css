@@ -199,8 +199,8 @@ progress[value]  {
     appearance: none;
     vertical-align: middle;
     border: none;
-    width: 250px;
-    height: 20px;
+    width: 15em;
+    height: 0.75em;
     background-color: var(--text-light);
     color: var(--blue);
 }

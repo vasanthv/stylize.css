@@ -176,7 +176,7 @@ input[type="submit"],
 a[role="button"] {
     padding: 0.33em 0.66em;
     cursor: pointer;
-    background-color: var(--text-light);
+    background-color: var(--text-lighter);
     color: var(--text);
     text-decoration: none;
 }
@@ -184,7 +184,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 a[role="button"]:hover {
-    background-color: var(--text-lighter);
+    background-color: var(--text-light);
 }
 a[role="button"]{
     padding:0.5em 0.66em;

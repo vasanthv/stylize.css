@@ -8,7 +8,7 @@
 > - No need to add any css .class or #id to your HTML.
 > - Consistent behaviour across all modern browsers.
 
-See the demo [here](https://vasanthv.github.io/stylize.css/demo.html). *Note: This page does not have any other styles other than stylize.css.*
+See the demo [here](https://vasanthv.github.io/stylize.css/demo.html).
 
 ## Usage:
 ```html

@@ -68,6 +68,7 @@ nav a{
 }
 nav a:hover{
     background-color: var(--text-light);
+    color: var(--text)
 }
 
 /* Horizontal Line */
@@ -106,6 +107,8 @@ pre{
     padding: 0.8em;
     border-radius: var(--border-radius);
     font-size: 1em;
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
 }
 code, 
 kbd, 
@@ -226,6 +229,8 @@ table th,
 table td {
     border-bottom: 1px solid var(--text-light);
     padding:0.33em 0.66em;
+    text-align: left;
+    vertical-align: middle;
 }
 table[border="1"], 
 table[border="1"] th, 
@@ -240,6 +245,9 @@ table[border="1"] td {
 .right{
     float: right;
 }
+.center{
+    text-align: center;
+}
 .clear{
     clear: both;
 }
@@ -252,12 +260,18 @@ table[border="1"] td {
     border:none;
     clear: both;
 }
+.wrap{
+    width: 100%;
+    max-width: 40em;
+    margin: auto;
+}
 .reset{
     font: inherit;
     font-size: 100%;
     margin: 0;
     padding: 0;
     border: 0;
+    text-decoration: none;
 }
 ol.reset, ul.reset {
 	list-style: none;

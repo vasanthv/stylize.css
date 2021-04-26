@@ -1,14 +1,14 @@
 # stylize.css
-> A beautiful alternative CSS resets & normalizers.
+> A beautiful alternative to CSS resets & normalizers.
 >
-> We all know that HTML document without CSS sucks. Stylize.css adds a set of CSS to the HTML markup to make it look much better and consistent across browsers.
+> We all know that HTML documents without any CSS suck. Stylize.css adds a set of CSS rules to render HTML markup in a much better and consistent way, across browsers.
 >
-> Stylize.css adds styles to the semantic HTML markup. So use tags only and no classes, attributes, etc.
+> Stylize.css defines CSS rules on HTML tags; which helps you render your markup in a beautiful way, without needing to use of any classes, attributes, etc.
 > - Lightweight (just 4KB in size).
-> - No need to add any css .class or #id to your HTML.
+> - No need for css .classes or #ids in your HTML.
 > - Consistent behaviour across all modern browsers.
 
-See the demo [here](https://vasanthv.github.io/stylize.css/demo.html).
+View the demo [here](https://vasanthv.github.io/stylize.css/demo.html).
 
 ## Usage:
 ```html
